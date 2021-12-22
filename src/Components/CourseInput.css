@@ -4,21 +4,23 @@
 }
 .course-label{
     color: black;
-     font-weight: 700;
+     font-weight: 900;
      margin-right: 270px;
 }
 
 .course-actions{
     margin-top: 10px;
-    background: purple;
+    background: #8b005d;
     margin-right: 280px;
+    font-weight: 700;
+    padding: 10px 10px 10px 10px ;
 }
 .course-planner{
-   border: 0.5px solid black;
+   border: 0.5px solid #ccc;
     border-radius: 5px;
     width: 500px;
     margin-left: 500px;
-    height: 150px;
+    height: 160px;
     
 }
 .course-input{

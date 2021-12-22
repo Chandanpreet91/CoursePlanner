@@ -1,10 +1,11 @@
+import "./CourseDisplay.css";
 const CourseDisplay = (props) => {
   return (
-    <div className="courses-list">
+    <div>
       {props.coursesList.map((course) => (
-        <li key={course.id} className="course-name">
+        <ul key={course.id} className="courses-list">
           {course.text}
-        </li>
+        </ul>
       ))}
     </div>
   );
