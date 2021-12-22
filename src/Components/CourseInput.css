@@ -1,0 +1,27 @@
+.course-form{
+   margin-top: 10%;
+    text-align: center;
+}
+.course-label{
+    color: black;
+     font-weight: 700;
+     margin-right: 270px;
+}
+
+.course-actions{
+    margin-top: 10px;
+    background: purple;
+    margin-right: 280px;
+}
+.course-planner{
+   border: 0.5px solid black;
+    border-radius: 5px;
+    width: 500px;
+    margin-left: 500px;
+    height: 150px;
+    
+}
+.course-input{
+    width: 350px;
+    margin-top: 10px;
+}

@@ -1,5 +1,11 @@
+import CourseInput from "./Components/CourseInput";
+
 function App() {
-  return <div className="App">Learn React</div>;
+  return (
+    <div>
+      <CourseInput />
+    </div>
+  );
 }
 
 export default App;
