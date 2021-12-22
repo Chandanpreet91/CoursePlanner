@@ -1,4 +1,5 @@
 import { useState } from "react";
+import CourseDisplay from "./Components/CourseDisplay";
 import CourseInput from "./Components/CourseInput";
 
 function App() {
@@ -11,11 +12,11 @@ function App() {
     setCourses((prevData) => {
       return [...prevData, data];
     });
-    courses.map((course) => console.log(course));
   };
   return (
     <div>
       <CourseInput onHandleCourses={handleCourses} />
+      <CourseDisplay coursesList={courses} />
     </div>
   );
 }
